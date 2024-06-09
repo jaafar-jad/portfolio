@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import Nuesa from "@/public/nuesa.jpg";
+import Movies from "@/public/movies.jpg";
+import Budgets from "@/public/budgets.jpg";
 
 export const links = [
   {
@@ -36,72 +36,63 @@ export const links = [
 export const experiencesData = [
   {
     title: "Graduated bootcamp",
-    location: "Miami, FL",
+    location: "Gwagwalada",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated after 8 months of studying.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2021",
   },
   {
     title: "Front-End Developer",
-    location: "Orlando, FL",
+    location: "Uniabuja",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as a front-end developer for 6 month in 1 job .",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2022 - 2023",
   },
   {
     title: "Full-Stack Developer",
-    location: "Houston, TX",
+    location: "Gwagwalada",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I'm now working to be a full-stack developer and also working as a freelancer. My stack includes React, Next.js, Tailwind, SQL. I'm open to remote opportunities.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2023 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
-    description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+    title: "NUESA WEBSITE",
+    description: "Served as a Front-End and partial Back-End Developer for a startup project over a two-month period.",
+    tags: ["React", "Next.js", "GraphQL", "Tailwind", "email.js", "react-icons"],
+    imageUrl: Nuesa,
+    link: "https://nueasa-uofa.vercel.app/" // Replace with the actual URL
   },
   {
-    title: "rmtDev",
-    description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+    title: "LUCIDIZE MOVIES",
+    description: "Developed a dynamic Movies App using React, providing users with the latest movies, detailed overviews, ratings, and trailers.",
+    tags: ["React", "CSS", "Redux", "axios", "fortawesome", "react-alice-carousel", "react-fontawesome", "react-responsive-modal", "react-router-dom"],
+    imageUrl: Movies,
+    link: "https://lucidizemovies.vercel.app/movies" // Replace with the actual URL
   },
   {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
-  },
+    title: "LUCID BUDGETS",
+    description: "Created a Budget App that allows users to lay out their budget plans, with an automated system to sum up expenses and provide a comprehensive financial overview.",
+    tags: ["React.js", "CSS", "react-icons"],
+    imageUrl: Budgets,
+    link: "https:/lbudgets.vercel.app/" // Replace with the actual URL
+  }
 ] as const;
 
 export const skillsData = [
   "HTML",
   "CSS",
   "JavaScript",
-  "TypeScript",
   "React",
   "Next.js",
-  "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
   "PostgreSQL",
   "Python",
-  "Django",
   "Framer Motion",
 ] as const;
