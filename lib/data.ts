@@ -80,7 +80,7 @@ export const projectsData = [
     description: "Created a Budget App that allows users to lay out their budget plans, with an automated system to sum up expenses and provide a comprehensive financial overview.",
     tags: ["React.js", "CSS", "react-icons"],
     imageUrl: Budgets,
-    link: "https:/lbudgets.vercel.app/" // Replace with the actual URL
+    link: "https://lbudgets.vercel.app/" // Replace with the actual URL
   }
 ] as const;
 

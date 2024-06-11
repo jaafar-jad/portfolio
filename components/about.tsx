@@ -32,7 +32,7 @@ export default function About() {
         </span>
         .I am always looking to
         learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">Remote position or a one time job</span> as a web development.
+        <span className="font-medium">Remote position or a one time job</span> as a web developer.
       </p>
 
       <p>
